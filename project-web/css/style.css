@@ -1,0 +1,50 @@
+/* css/style.css */
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+/* Global Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Login Container */
+.login-container {
+  min-height: 100vh;
+}
+
+/* Card Login Custom */
+.login-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Card Body Padding */
+.login-card .card-body {
+  padding: 30px;
+}
+
+/* Title Styling */
+.card-title {
+  font-weight: 600;
+  color: #333;
+}
+
+/* Link Styling */
+a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
